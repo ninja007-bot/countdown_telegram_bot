@@ -1,10 +1,11 @@
 # Test File
 {
+
+   "description": "Test run Countdown Bot.",
    "env": {
-      "TOKEN": {
-         "description": "Your bot token. Get one from @BotFather duh",
-         "required": true,
-         "value": ""
+      "ALLOW_EXCL": {
+         "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
+         "value": "True"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
@@ -15,8 +16,11 @@
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
          "value": ""
-      },    
-      }
+      },
+   },
+
    "name": "Countdown Bot",
    "repository": "https://github.com/ninja007-bot/countdown_telegram_bot"
 }
+
+
