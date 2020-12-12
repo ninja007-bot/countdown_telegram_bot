@@ -19,8 +19,8 @@
       }
    }
 
-   "name": "Countdown Bot",
-   "repository": "https://github.com/ninja007-bot/countdown_telegram_bot"
+   "name":  "Countdown Bot",
+   "repository":  "https://github.com/ninja007-bot/countdown_telegram_bot"
 }
 
 
