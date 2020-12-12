@@ -3,9 +3,10 @@
 
    "description": "Test run Countdown Bot.",
    "env": {
-      "ALLOW_EXCL": {
-         "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
-         "value": "True"
+      "TELEGRAM_TOKEN": {
+         "description": "Your bot token. Get one from @BotFather duh",
+         "required": true,
+         "value": ""
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
